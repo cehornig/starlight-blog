@@ -274,7 +274,7 @@ nav {
   border-top: 2px solid $dark;
 }
 
-.comment-form {
+.comment-form-container {
   margin-top: 20px;
   border-top: 2px solid $dark;
 
@@ -299,18 +299,29 @@ nav {
     }
   }
 
-  input[type="submit"] {
+  .form-submit {
     background: $dark;
     color: $light;
     margin-top: 10px;
     padding: 5px 10px;
     border: none;
     border-radius: 10px;
+    text-decoration: none;
 
     font-family: $bodyfont, sans-serif;
     font-size: 18px;
 
     cursor: pointer;
+  }
+}
+
+.comments {
+  .commenter-name {
+    font-style: italic;
+  }
+
+  .border-comment {
+    border-top: 2px solid $dark;
   }
 }
 
