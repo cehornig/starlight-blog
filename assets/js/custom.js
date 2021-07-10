@@ -37,7 +37,12 @@
     var baseHref = split[0];
     var body = 'Name: ' + name + '%0D%0A%0D%0AMessage: ' + content;
 
-    body += "%0D%0A%0D%0A(Yeah, you need to send this in an email. Sorry. If you want to know why, ask me. Maybe I'll write a post about it!)"
+    body += "%0D%0A%0D%0A(Yeah, you need to send this in an email. Sorry. If you want to know why, ask me. Maybe I'll write a post about it!)";
 
     $('.form-submit').attr('href', baseHref + '&body=' + body);
+  });
+
+  $('.form-submit').on('click', function() {
+    $('input[name="name"]').val('');
+    $('textarea[name="content"]').val('');
   });
