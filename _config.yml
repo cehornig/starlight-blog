@@ -1,0 +1,15 @@
+title: Writing by Starlight
+author: Taylor Hornig
+
+description: >-
+  Content on the speculative fiction wavelength
+baseurl: ""
+url: ""
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+permalink: /:title

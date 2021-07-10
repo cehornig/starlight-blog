@@ -1,0 +1,37 @@
+<div class="comment-form">
+  <p>
+    Got something to say?  It's your lucky day!  Submit comments here,
+    and they'll appear after approval. (Or email me at <a href="mailto:taylor@writingbystarlight.com">taylor@writingbystarlight.com</a>.)
+  </p>
+  <form action="https://starlightstatic.herokuapp.com/v3/entry/github/cehornig/starlight-blog/main/comments" method="post">
+    <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+    <div class="content-input">
+      Name: <br><input type="text" name="fields[name]">
+    </div>
+    <div class="content-input">
+      Comment: <br><textarea name="fields[message]"></textarea>
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<!-- Modified from https://tosbourn.com/generating-comments-on-static-sites-with-staticman/ -->
+<!-- and https://www.leonpaternoster.com/posts/staticman-jekyll-comments/ -->
+{% assign post = page.title %}
+{% assign post = post | slugify %}
+
+{% assign comments = site.data.comments[post] %}
+<div class="comments">
+  <h2 class="header">Comments</h2>
+  {% if comments == nil %}
+    <p>There are no comments. :-(</p>
+  {% else %}
+    {% for comment in comments reversed %}
+      {% assign commentData = comment[1] %}
+          <span class="commenter-name">{{ commentData.name | strip_html }} said...</span>
+          <div class="comment">
+            {{ commentData.message strip_html | markdownify | smartify  }}
+            {{ commentData.date | date_to_long_string }}
+          </div>
+    {% endfor %}
+  {% endif %}
+</div>

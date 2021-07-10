@@ -1,0 +1,22 @@
+<nav>
+  <div class="nav-wrapper">
+    <a href="/" class="logo">
+      Writing by Starlight
+      <br>
+      <span class="small">Content on the Speculative Fiction Wavelength</span>
+    </a>
+    <div class="mobile-header">
+      <span class="bar-wrapper">
+        <i class="fa fa-bars"></i>
+      </span>
+    </div>
+    <div class="toggle-links">
+      {% for item in site.data.navigation %}
+        {% if item.name != "Writing by Starlight" %}
+          <a href="{{ item.link }}" title="{{item.name}}" class="nav-item">{{ item.name }}</a>
+        {% endif %}
+      {% endfor %}
+      <a href="/feed.xml" class="nav-item">Feed</a>
+    </div>
+  </div>
+</nav>

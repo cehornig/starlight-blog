@@ -1,0 +1,471 @@
+$dark: #292929; /* original: #292929*/
+$light: white; /* original: white */
+$hoverlink: #636363;
+$hoverlinklight:#d1d1d1;
+$nav: $dark;
+$navfont: "Handlee";
+$bodyfont: "Lexend Deca";
+// #525252;
+
+// General styles
+body {
+  font-family: $bodyfont, serif;
+  font-size: 18px;
+  background: $light;
+  color: $dark;
+}
+
+.img-me {
+  width: 200px;
+  border-radius: 40px;
+  border: 2px solid $dark;
+}
+
+// Main text content
+.content {
+  margin: auto;
+  max-width: 90%;
+
+  .container {
+    display: flex;
+    padding-top: 123px;
+    min-height: calc(100vh - 163px);
+
+    .main {
+      flex-grow: 1;
+      padding-right: 20px;
+
+      .date {
+        margin-top: 30px;
+      }
+
+      .header,
+      .title {
+        text-align: center;
+      }
+
+      a {
+        color: $dark;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: $hoverlink;
+      }
+
+      .title a,
+      .header a {
+        padding-bottom: 10px;
+        color: $dark;
+        text-decoration: none;
+      }
+
+      .title a:hover,
+      .header a:hover {
+        border-bottom: 2px solid $dark;
+      }
+
+      .rating-group:not(:last-child) {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid $dark;
+      }
+
+      .rating {
+        font-size: 22px;
+      }
+
+      .spoiler {
+        background: $dark;
+        cursor: pointer;
+      }
+
+      .spoiler:hover {
+        .spoiler-info {
+          display: block;
+        }
+      }
+
+      .spoiler-revealed {
+        background: $light;
+        outline: 2px dotted $dark;
+      }
+
+      // Spoiler tooltip
+      // With thanks to https://www.w3schools.com/css/css_tooltip.asp
+      .spoiler-info {
+        display: inline-block;
+        position: absolute;
+        height: 30px;
+        padding: 5px;
+        bottom: -50px;
+        background: $dark;
+        color: $light;
+        text-align: center;
+        border-radius: 20px;
+      }
+
+      .spoiler-info::before {
+        position: absolute;
+        content: "";
+        left: calc(50% - 9px);
+        top: -15px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent $dark transparent;
+      }
+
+      .blockquote {
+        padding-left: 40px;
+        border-left: 2px solid $dark;
+      }
+
+      .entry-footer {
+        margin-top: 20px;
+        border-top: 2px solid $dark;
+        padding-top: 20px;
+      }
+    }
+  }
+}
+
+// Navbar
+nav {
+  position: fixed;
+  margin: -8px 0 0 -8px;
+  background: $nav;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 28px;
+  text-align: right;
+  border-bottom: 2px solid $dark;
+  z-index: 10;
+
+  .mobile-header {
+    width: 100%;
+    height: 45px;
+    text-align: right;
+  }
+
+  a {
+    margin: 0 10px;
+    padding: 0 15px;
+    color: $light;
+    text-decoration: none;
+  }
+
+  a:last-child {
+    margin-right: -20px;
+  }
+
+  a:hover {
+    color: $hoverlinklight;
+  }
+
+  a.logo {
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    font-weight: bold;
+    font-family: $navfont, serif;
+    font-size: 30px;
+    // prevent movement of nav bottom border on hover
+    // https://stackoverflow.com/questions/8625812/css-hover-border-makes-inline-elements-adjust-slightly
+    // border-bottom: 2px solid transparent;
+
+    .small {
+      position: relative;
+      font-size: 0.6em;
+      background: transparent;
+    }
+  }
+
+  .current {
+    border-bottom: 2px solid $light;
+  }
+
+  .nav-wrapper {
+    position: relative;
+    margin: auto;
+    max-width: 90%;
+  }
+
+  .bar-wrapper {
+    color: $light;
+  }
+
+  .toggle-links {
+    width: 100%;
+    font-family: $navfont, serif;
+    font-size: 30px;
+  }
+}
+
+// Sidebar
+.sidebar {
+  flex: 0 0 250px;
+  border-left: 2px solid $dark;
+
+  h2 {
+    color: $dark;
+  }
+
+  a {
+    color: $dark;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $hoverlink;
+  }
+
+  i {
+    font-size: 46px;
+  }
+}
+
+.sidebar > div {
+  padding: 0 20px;
+}
+
+.contact {
+  padding-top: 20px;
+}
+
+.contact-item {
+  color: $dark;
+  cursor: pointer;
+  padding-bottom: 10px;
+
+  a:hover {
+    color: $hoverlink;
+    border-color: transparent;
+    }
+
+  h3, h4 {
+    margin-bottom: 10px;
+    }
+  }
+
+.contact svg {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.contact-item#twitter {
+  color: red;
+  h3 {
+    margin-bottom: 0;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+}
+
+// Comments
+
+.questions-boilerplate {
+  padding-top: 20px;
+  border-top: 2px solid $dark;
+}
+
+.comment-form {
+  margin-top: 20px;
+  border-top: 2px solid $dark;
+
+  a {
+    color: $dark;
+  }
+
+  .content-input {
+    padding: 10px 0;
+
+    input[type="text"],
+    textarea {
+      font-family: $bodyfont, sans-serif;
+      font-size: 16px;
+      border: 2px solid $dark;
+      border-radius: 10px;
+    }
+
+    textarea {
+      width: 400px;
+      height: 100px;
+    }
+  }
+
+  input[type="submit"] {
+    background: $dark;
+    color: $light;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+
+    font-family: $bodyfont, sans-serif;
+    font-size: 18px;
+
+    cursor: pointer;
+  }
+}
+
+// Footer
+.footer {
+  font-size: 14px;
+  margin-top: 42px;
+  padding-top: 20px;
+
+  a {
+    color: $dark;
+  }
+
+  a:hover {
+    color: $hoverlink;
+  }
+
+  #footer-contact {
+    text-align: center;
+    margin: 20px 0 40px 0;
+
+    .contact-item {
+      display: inline-block;
+      width: 100px;
+
+      i {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+.mobile-footer-extras {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    font-size: 48px;
+    color: $dark;
+  }
+
+  a:hover {
+    color: $hoverlink;
+  }
+}
+
+// Mailing list
+#mc_embed_signup {
+  padding-top: 10px;
+
+  h2 {
+    font-size: 1.17em;
+  }
+
+  input[type="email"] {
+    padding: 5px;
+    font-family: $bodyfont, sans-serif;
+    font-size: 16px;
+    border: 2px solid $dark;
+    border-radius: 10px;
+  }
+
+  input[type="submit"] {
+    background: $dark;
+    color: $light;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+
+    font-family: $bodyfont, sans-serif;
+    font-size: 18px;
+
+    cursor: pointer;
+  }
+}
+
+// Large screen specific
+@media screen and (min-width: 993px) {
+  #footer-contact {
+    display: none;
+  }
+
+  .mobile-header {
+    display: none;
+    /*float: left;
+    width: 360px;
+    text-align: left;*/
+  }
+
+  .mobile-footer-extras {
+    display: none;
+  }
+
+  .toggle-links {
+    display: inline-block !important;
+  }
+
+  .bar-wrapper {
+    display: none;
+  }
+}
+
+// Small screen specific
+@media screen and (max-width: 992px) {
+  .mobile-header {
+    display: inline-block;
+    width: 360px;
+    text-align: left;
+  }
+
+  .container {
+    min-height: 0;
+  }
+
+  .toggle-links {
+    display: none;
+
+    a {
+      padding: 8px 0;
+    }
+  }
+
+  nav {
+    .nav-item {
+      display: block;
+      margin: 0;
+      text-align: center;
+      border: 0;
+    }
+
+    .nav-item:first-child {
+      padding-top: 30px;
+    }
+
+    .nav-item:hover {
+      border: none;
+    }
+
+    a:last-child {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .fa-bars {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .footer {
+    padding-top: 0;
+  }
+}

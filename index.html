@@ -1,0 +1,21 @@
+---
+layout: default
+title: Writing by Starlight
+---
+<h1 class="header">Latest</h1>
+{% for post in site.posts limit:1 %}
+  <h2 class="title">{{ post.title }}</h2>
+  {% if post.author %}
+  <h3 class="header">by {{ post.author }}</h3>
+  {% endif %}
+  {% if post.rating %}
+  <p class="rating">Verdict:
+    {% for i in (1..post.rating) %}
+      <i class="fas fa-star"></i>
+    {% endfor %}
+  </p>
+  {% endif %}
+  <p>{{ post.date | date_to_string }}</p>
+  <p>{{ post.excerpt }}</p>
+  <p><a href="{{ post.url }}">Read more</a></p>
+{% endfor %}

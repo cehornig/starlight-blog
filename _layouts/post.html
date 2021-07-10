@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<title>{{ page.title }} | {{ site.title }}</title>
+<h1 class="header">
+  {{ page.title }}
+</h1>
+{% if page.author %}
+<h2 class="header">by {{ page.author }}</h2>
+{% endif %}
+{% if page.rating %}
+<p class="rating">Verdict:
+  {% for i in (1..page.rating) %}
+    <i class="fas fa-star"></i>
+  {% endfor %}
+</p>
+{% endif %}
+<p class="date">{{ page.date | date_to_string }}</p>
+{{ content }}
