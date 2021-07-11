@@ -26,7 +26,7 @@
   {% else %}
     {% for comment in comments reversed %}
       {% assign commentData = comment[1] %}
-        <div {% unless forloop.first %} class="border-comment" {% endunless %} style="padding:20px 0">
+        <div {% unless forloop.first %} class="border-comment" {% endunless %}>
           <span class="commenter-name">{{ commentData.name | strip_html }} said...</span>
           <div class="comment">
             {{ commentData.message strip_html | markdownify | smartify  }}
