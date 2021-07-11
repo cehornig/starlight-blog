@@ -282,6 +282,10 @@ nav {
     color: $dark;
   }
 
+  a:hover {
+    color: $hoverlink;
+  }
+
   .content-input {
     padding: 10px 0;
 
