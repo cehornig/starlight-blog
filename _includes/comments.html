@@ -30,7 +30,7 @@
           <span class="commenter-name">{{ commentData.name | strip_html }} said...</span>
           <div class="comment">
             {{ commentData.message strip_html | markdownify | smartify  }}
-            {{ commentData.date | date_to_long_string }}
+            {{ commentData.date | date: "%B %-d, %Y at %-I:%M%P" }}
           </div>
         </div>
     {% endfor %}
