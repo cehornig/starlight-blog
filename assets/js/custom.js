@@ -51,6 +51,7 @@
     var $content = $('textarea[name="content"]');
     if (!$input.val() || !$content.val()) {
       e.preventDefault();
+      alert('Comments require names and messages. Please fill in both :-)');
       return;
     }
 
