@@ -13,3 +13,6 @@ plugins:
   - jekyll-seo-tag
 
 permalink: /:title
+
+sass:
+  style: compressed
