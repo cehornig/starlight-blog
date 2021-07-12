@@ -31,6 +31,7 @@
 
     var name = $('input[name="name"]').val();
     var content = $('textarea[name="content"]').val();
+
     var href = $('.form-submit').attr('href');
     var date = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
 
@@ -45,7 +46,14 @@
     $('.form-submit').attr('href', baseHref + '&body=' + body);
   });
 
-  $('.form-submit').on('click', function() {
-    $('input[name="name"]').val('');
-    $('textarea[name="content"]').val('');
+  $('.form-submit').on('click', function(e) {
+    var $input = $('input[name="name"]');
+    var $content = $('textarea[name="content"]');
+    if (!$input.val() || !$content.val()) {
+      e.preventDefault();
+      return;
+    }
+
+    $input.val('');
+    $content.val('');
   });
