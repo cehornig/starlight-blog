@@ -4,7 +4,7 @@ author: Taylor Hornig
 description: >-
   Content on the speculative fiction wavelength
 baseurl: ""
-url: ""
+url: "https://www.writingbystarlight.com"
 
 markdown: kramdown
 plugins:
