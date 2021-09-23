@@ -3,6 +3,7 @@ $light: white; /* original: white */
 $hoverlink: #636363;
 $hoverlinklight:#d1d1d1;
 $nav: $dark;
+//$navfont: "Fredoka One";
 $navfont: "Handlee";
 $bodyfont: "Lexend Deca";
 // #525252;
@@ -235,9 +236,9 @@ nav {
   padding: 0 20px;
 }
 
-.contact {
+/*.contact {
   padding-top: 20px;
-}
+}*/
 
 .contact-item {
   color: $dark;
