@@ -15,8 +15,7 @@
 </div>
 <!-- Modified from https://tosbourn.com/generating-comments-on-static-sites-with-staticman/ -->
 <!-- and https://www.leonpaternoster.com/posts/staticman-jekyll-comments/ -->
-{% assign post = page.title %}
-{% assign post = post | slugify %}
+{% assign post = page.slug %}
 
 {% assign comments = site.data.comments[post] %}
 <div class="comments">
