@@ -287,7 +287,7 @@ nav {
   }
 
   a:hover {
-    color: $hoverlink;
+    background: $hoverlink;
   }
 
   .content-input {
@@ -322,10 +322,6 @@ nav {
     font-display: swap;
 
     cursor: pointer;
-  }
-
-  .form-submit:hover {
-    color: $light;
   }
 }
 
