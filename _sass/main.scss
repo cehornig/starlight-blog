@@ -417,6 +417,18 @@ nav {
 
     cursor: pointer;
   }
+
+  input[type="submit"]:hover {
+    background: $hoverlink;
+  }
+}
+
+img#me {
+  width: 150px;
+  float: left;
+  margin: 0 20px 20px 0;
+  border: 2px solid $dark;
+  border-radius: 10px;
 }
 
 // Large screen specific
@@ -499,5 +511,17 @@ nav {
   .footer {
     padding-top: 0;
     text-align: center;
+  }
+}
+
+// Very small screen specific
+@media screen and (max-width: 350px) { 
+  #img-container {
+    text-align: center;
+  }
+
+  img#me {
+    float: none;
+    margin: 0;
   }
 }
