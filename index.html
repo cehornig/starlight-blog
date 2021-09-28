@@ -15,7 +15,7 @@ title: Writing by Starlight
     {% endfor %}
   </p>
   {% endif %}
-  <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+  <p class="date">{{ post.date | date: "%B %-d, %Y" }}</p>
   <p>{{ post.excerpt }}</p>
   <p><a href="{{ post.url }}">Read more</a></p>
 {% endfor %}
