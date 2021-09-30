@@ -58,3 +58,12 @@
     $input.val('');
     $content.val('');
   });
+
+  if ($('.share-btn').length > 0) {
+    var title = encodeURIComponent(document.title);
+    var link = encodeURIComponent(document.location.href);
+
+    var tweetLink = 'https://twitter.com/intent/tweet?text=' + title + '&url=' + link + '%2F';
+
+    $('.share-btn').attr('href', tweetLink);
+  }
