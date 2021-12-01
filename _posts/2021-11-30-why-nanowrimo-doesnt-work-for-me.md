@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Opinion: Why NaNoWriMo Doesn't Work For Me—and What Works Instead"
+---
+A month ago, I got an idea for a novel. My first thought was, "This is going to take a while." My second thought was, "Maybe not, because next month is NaNoWriMo."
+
+For those not in the know, NaNoWriMo is short for <a target="_blank" href="https://nanowrimo.org/">National Novel Writing Month</a>. (It's occasionally shortened further to NaNo, especially by bloggers who are too lazy to type NaNoWriMo.) NaNo participants write a 50,000-word novel over the course of November, which demands a blistering average pace of 1,667 words per day. I'd never done NaNo---for reasons that will shortly become clear---but the timing seemed so fortuitous that I couldn't help but be thrilled by the thought. I could rise to the NaNo challenge! It would be so exciting! So gratifying! So glorious!
+
+But I didn't. <a target="_blank" href="https://twitter.com/theastrocrow/status/1453139573974896652?s=20">I seriously considered it</a>, but when November 1st rolled around, I wrote a grand total of 272 words. And they weren't even for the novel.
+
+You see, when it comes to fiction, I'm a slow writer. An outrageously, painfully, glacially slow writer. You know all that advice about blasting out drafts and telling that pesky editing impulse to go jump in a lake? It doesn't work for me. I've tried it, I've _wanted_ to succeed with it, but I've failed enough attempts that I've finally accepted my need to write, well, slow.
+
+Now, I'm not a professional author. I'm a programmer who likes to rant about fiction and occasionally spit out some of her own. I'm certainly not an authority on how best to draft a story. But I know the strategies that work for me, and I know they're different from what's commonly advised. So I present them here, in hopes that they'll help someone else figure out the strategies that work for them. 
+
+My average drafting pace is 150 words per day. Yeah. Just 150 words. Granted, that's on weekdays---on weekends I do more like 500---but most days are weekdays, so generally it's gonna be 150. And I write those 150 words very, very carefully. I don't obsess over getting each one perfect, since I know that's impossible in a first draft, but I do try to make the sentence structure, the character behavior, the plot progression, and so on feel more or less correct. That means I often stop pumping out new words to revise ones I wrote earlier in the session. I'll also revise stuff I wrote in previous sessions, especially if it's recent. A significant minority of my daily word count is usually additions to what I wrote the day before. (I'm not naturally a descriptive writer, so my initial prose tends to be description-sparse. I have to add most of that detail on a second pass.)
+
+Why do I draft this way? There are a few reasons:
+
+1. I get antsy when I'm sitting on unfinished work. This isn't an ideal quality for a writer, since we have to live with partial, unoptimized, uncritiqued, and otherwise incomplete stories for the weeks, months, or years it takes to tweak them into their best selves. I've found that the most effective solution to this conflict is to give myself tastes of completeness throughout the drafting process, which I achieve by polishing as I go.
+
+2. I love to edit. Nudging words into their optimal configuration is one of my greatest joys. I'd much rather edit than draft, and I write fiction for fun, so darn it, I'm going to edit as much as possible.
+
+3. If I don't write carefully, I can't nail down the story's unresolved components---and there are always a lot of those, because I am, surprisingly, a pantser. (Again, for those not in the know, a pantser is someone who writes by "the seat of their pants" instead of planning everything ahead of time.) It's those meticulous details, those precisely honed nuggets of intrigue, that tell me where the story goes. Why did that guy want to know where the protagonist went to school? Why does that room's decor feel like it came from the '50s? This place has an unexpectedly fun vibe. Can I set another scene here? How would that work? If I don't invest enough time in discovering these cues, I'll have no plot, and then I (and the story) will be very sad.
+
+I've tried to defy this pattern. Years ago, I decided to draft a novel NaNo-style---no revisions, high daily word count. I had to stop and edit everything after nine chapters. Without the chance to revise, I didn't have the comfort or confidence to progress. Allowing myself to persue my natural process is what let me finish a functional draft---and I did finish a functional draft, and in a reasonable amount of time, too. In fact, I've tried variations on the "speed up, don't edit" process for a lot of stories, and I always end up reverting to "slow down, edit lots," and then, miraculously, managing to complete the draft on a timescale that doesn't involve millenia.
+
+So for this novel, I won't fight the pattern. I'll write as slowly as I want, and edit as much as I want, and that means no NaNo for me. I have no clue how long I'll take to finish, but it's going to be way longer than a month. And you know what? I don't mind. I've come to terms with my wacky drafting process. It makes me happy, and it gets the job done. That's really all a writer can ask for.
