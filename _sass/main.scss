@@ -46,6 +46,20 @@ body {
         text-align: center;
       }
 
+      h1.review-header,
+      h1.all-header {
+        padding-bottom: 30px;
+        border-bottom: 2px solid $dark;
+      }
+
+      h2.review-header {
+        font-size: 2em;
+      }
+
+      h3.review-header {
+        font-size: 1.5em;
+      }
+
       a {
         color: $dark;
         text-decoration: underline;
