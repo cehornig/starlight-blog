@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Review: Foundation"
+author: Isaac Asimov
+tags: ["Two Stars"]
+rating: 2
+---
+Isaac Asimov’s work was my first “serious” science fiction. Before I dipped my toes into his ridiculously long bibliography, my exposure to sci-fi consisted entirely of Star Wars and pulpy adventure novels. I think my first Asimov book was _The Caves of Steel_, followed by its sequels, and then some of the _Foundation_ books, with the novelization of _Nightfall_ tossed in there somewhere. My memories of these books are hazy, because they were formed when iPods had black-and-white screens and those funny selection wheels. But my general recollection is that while I enjoyed Asimov’s work, I didn't love it. I don't remember why, other than a vague sense that I preferred his concepts to his characters, which struck me as weak.
+
+When I decided to reread _Foundation_, I was curious if adult me and tween me would agree. The short answer is yes. The longer answer is yes, plus a big old raised brow at the ’50s gender roles. I think I noticed this issue as a kid, but didn’t have the vocabulary or social awareness to process it. These days, as someone who derives great joy from anything that crushes gender norms, it was, shall we say, _unpleasant_.
+
+_Foundation_ begins with the ancient interplanetary Empire on the verge of collapse. The warning signs are subtle, and only the brilliant psychologist Hari Seldon, who can predict the future, knows what’s coming. He establishes a new society on the distant planet Terminus—the titular Foundation—whose evolution he’s calculated from its modest foundation (ha) to its eventual ascension as a reborn Empire. To reach that lofty goal, the Foundation must navigate a series of pre-planned “Seldon crises” initiated by hostile states and its own fractious population. Each success brings it one step closer to Empire—but one failure will mean its end, and the end of Seldon’s millenia-spanning plan.
+
+It’s an awesome idea. Five out of five, no complaints. It’s hard to execute with well-developed characters, though, because nobody’s going to live long enough to experience more than a fraction of Seldon’s scheme. To handle the massive timescale, Asimov breaks _Foundation_ into several segments, each taking place decades or centuries apart. This means no character can appear for more than part of the book, and _that_ means every character has a smaller space in which to develop. The “more characters = less space per character” issue is a weakness of multi-viewpoint novels in general unless they’re gigantic (see: _A Song of Ice and Fire_). _Foundation_ is not gigantic, and its character development is further hampered by the way that the characters exist to fill roles, rather than allowing roles to evolve naturally from the characters. There’s <span class="spoiler">the crafty mayor, the fiery revolutionary, the ambitious trader, the power-hungry autocrat</span>…which aren’t bad descriptors, but the characters have minimal personality beyond those pithy summaries. Their flatness makes the whole story feel flat.
+
+And all of them are men. _All_ of them. The lack of women is so striking that I took it upon myself to catalogue every female character in the book. They are:
+
+1. A nameless woman who operates a switchboard for a paragraph
+2. A girl who is awed by a piece of jewelry for a page
+3. An overbearing wife who becomes docile the moment she’s given same piece of jewelry
+
+Not exactly an admirable showing. Though I will admit the wife shows signs of depth. She’s belligerent because <span class="spoiler">she was forced into an arranged marriage to boost her family’s political power, which makes her sympathetic despite her demeanor, and introduces an element of personal drama that’s lacking in most of her male counterparts.</span> But the jewelry tosses any hint of a complex subplot out the window. If the book’s depictions are to be believed, all women are subservient, nasty, or shallow, and do nothing of importance (beyond, perhaps, bolstering the economy for kitchen supplies). I’m not sure why it didn’t occur to Asimov that gender roles might be different in 50,000 years, considering that his story is about sweeping social change over the course of eons. Goes to show how ingrained those gender roles were in the collective ‘50s psyche, I guess.
+
+I’m reluctant to penalize _Foundation_ too much for its female characters. It seems unfair to slam a book for something that likely wouldn't have bothered the average reader when it was written. But its portrayal of women is objectively bad, and deserves a load of criticism regardless of publication date. Not to mention that poor characterization is a problem throughout the book, misogynistic or otherwise. It’s unfortunate that Asimov didn’t approach his characters with the same care and thoughtfulness he gave to his concepts. As it is, _Foundation_ was a fun trip down memory lane, but I doubt I’ll take it again.
+
+_Postscript: I've heard that the currently airing_ Foundation _TV series repairs the misogyny problem. If that's the case, I'm all for it. I'd turn cartwheels for a version of this story that fixes the character issues while leaving the galactic-scale epicness that Asimov does so well._
